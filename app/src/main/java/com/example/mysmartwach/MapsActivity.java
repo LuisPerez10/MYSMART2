@@ -85,7 +85,7 @@ public class MapsActivity extends WearableActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         // Map is ready to be used.
         mMap = googleMap;
-
+        //mapas
         // Inform user how to close app (Swipe-To-Close).
         int duration = Toast.LENGTH_LONG;
         Toast toast = Toast.makeText(getApplicationContext(), R.string.intro_text, duration);
